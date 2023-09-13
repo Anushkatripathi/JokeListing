@@ -11,7 +11,6 @@ import UIKit
 
 class JokeListingVC: UIViewController {
     
-    // @IBOutlet weak var tableView: UITableView!
     let tableView = UITableView()
     let label = UILabel()
     
@@ -45,7 +44,7 @@ class JokeListingVC: UIViewController {
             label.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
             label.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
             
-            tableView.topAnchor.constraint(equalTo: label.bottomAnchor, constant: 30),
+            tableView.topAnchor.constraint(equalTo: label.bottomAnchor, constant: 20),
             
             tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
@@ -54,7 +53,7 @@ class JokeListingVC: UIViewController {
         
         self.jokePresenter.delegate = self
         self.jokePresenter.JokesFetching()
-        Timer.scheduledTimer(withTimeInterval: 3, repeats: true) { [weak self] _ in
+        Timer.scheduledTimer(withTimeInterval: 60, repeats: true) { [weak self] _ in
             self?.jokePresenter.JokesFetching()
         }
     }

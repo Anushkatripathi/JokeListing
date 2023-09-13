@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9C2C66C52AB1C00D00C8815F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2C66C42AB1C00C00C8815F /* SceneDelegate.swift */; };
+		9C2C66C82AB1CB9000C8815F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C2C66C62AB1CB9000C8815F /* Main.storyboard */; };
 		9C8BF4222AAE36D80046A389 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8BF4212AAE36D80046A389 /* AppDelegate.swift */; };
-		9C8BF4292AAE36D80046A389 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C8BF4272AAE36D80046A389 /* Main.storyboard */; };
 		9C8BF42B2AAE36DA0046A389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C8BF42A2AAE36DA0046A389 /* Assets.xcassets */; };
 		9C8BF42E2AAE36DA0046A389 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C8BF42C2AAE36DA0046A389 /* LaunchScreen.storyboard */; };
 		9C8BF4532AAE44380046A389 /* JokeListingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8BF4522AAE44380046A389 /* JokeListingVC.swift */; };
@@ -38,9 +38,9 @@
 
 /* Begin PBXFileReference section */
 		9C2C66C42AB1C00C00C8815F /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9C2C66C72AB1CB9000C8815F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C8BF41E2AAE36D80046A389 /* JokeListing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JokeListing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C8BF4212AAE36D80046A389 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9C8BF4282AAE36D80046A389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C8BF42A2AAE36DA0046A389 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C8BF42D2AAE36DA0046A389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C8BF42F2AAE36DA0046A389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,10 +99,10 @@
 		9C8BF4202AAE36D80046A389 /* JokeListing */ = {
 			isa = PBXGroup;
 			children = (
+				9C2C66C62AB1CB9000C8815F /* Main.storyboard */,
 				9C2C66C42AB1C00C00C8815F /* SceneDelegate.swift */,
 				9C8BF4512AAE43E10046A389 /* JokeListing */,
 				9C8BF4212AAE36D80046A389 /* AppDelegate.swift */,
-				9C8BF4272AAE36D80046A389 /* Main.storyboard */,
 				9C8BF42A2AAE36DA0046A389 /* Assets.xcassets */,
 				9C8BF42C2AAE36DA0046A389 /* LaunchScreen.storyboard */,
 				9C8BF42F2AAE36DA0046A389 /* Info.plist */,
@@ -228,8 +228,8 @@
 			files = (
 				9C8BF42E2AAE36DA0046A389 /* LaunchScreen.storyboard in Resources */,
 				9C8BF42B2AAE36DA0046A389 /* Assets.xcassets in Resources */,
-				9C8BF4292AAE36D80046A389 /* Main.storyboard in Resources */,
 				9C8BF45D2AAE4AAB0046A389 /* JokeListingTableViewCell.xib in Resources */,
+				9C2C66C82AB1CB9000C8815F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,10 +293,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9C8BF4272AAE36D80046A389 /* Main.storyboard */ = {
+		9C2C66C62AB1CB9000C8815F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9C8BF4282AAE36D80046A389 /* Base */,
+				9C2C66C72AB1CB9000C8815F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

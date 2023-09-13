@@ -35,7 +35,6 @@ class JokePresenterFetching {
                 
                 self?.delegate?.jokedFetched(self?.joke ?? [])
                 
-                
             } catch {
                 print("Error decoding JSON: \(error)")
             }
